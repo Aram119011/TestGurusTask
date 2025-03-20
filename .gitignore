@@ -1,0 +1,21 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore frontend-specific dependencies
+frontend/node_modules/
+
+# Ignore backend-specific dependencies
+backend/node_modules/
+
+# Ignore environment files (security measure)
+.env
+frontend/.env
+backend/.env
+
+# Ignore build and compiled files
+frontend/build/
+backend/build/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
